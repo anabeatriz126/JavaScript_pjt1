@@ -1,0 +1,13 @@
+{
+  "viagens": [
+    {
+      "id": "1",
+      "destino": "São Paulo",
+      "origem": "Rio de Janeiro",
+      "dataInicio": "2024-09-30",
+      "dataFim": "2024-10-05",
+      "progresso": 50,
+      "meta": 100
+    }
+  ]
+}

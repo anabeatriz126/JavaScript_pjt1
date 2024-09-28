@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #viagens-container {
+    margin: 20px 0;
+  }
+  
+  .viagem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .viagem h3 {
+    margin-bottom: 5px;
+  }
+  
+  .progresso {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progresso-bar {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
