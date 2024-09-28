@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento de Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Viagens</h1>
+        
+        <!-- Formulário de Login -->
+        <div id="loginDiv" class="form-div">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Usuário" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button id="loginBtn">Login</button>
+        </div>
+
+        <!-- Cadastro de Usuário -->
+        <div id="cadastroDiv" class="form-div">
+            <h2>Cadastro</h2>
+            <input type="text" id="novoUsuario" placeholder="Novo Usuário" required>
+            <input type="password" id="novaSenha" placeholder="Nova Senha" required>
+            <button id="cadastrarBtn">Cadastrar</button>
+        </div>
+
+        <!-- Seleção de Viagem -->
+        <div id="selecaoViagemDiv" class="form-div hidden">
+            <h2>Selecione sua Viagem</h2>
+            <select id="selecaoViagem"></select>
+            <button id="confirmarViagemBtn">Confirmar Viagem</button>
+        </div>
+
+        <!-- Seleção de Assentos -->
+        <div id="selecaoAssentosDiv" class="form-div hidden">
+            <h2>Selecione o Tipo de Assento</h2>
+            <select id="tipoAssento">
+                <option value="leito">Leito</option>
+                <option value="semi-leito">Semi-Leito</option>
+            </select>
+            <h3>Selecione o Assento</h3>
+            <div id="assentosContainer" class="onibus-container"></div>
+
+            <label for="formaPagamento">Forma de Pagamento:</label>
+            <select id="formaPagamento">
+                <option value="cartaoCredito">Cartão de Crédito</option>
+                <option value="debito">Débito</option>
+                <option value="dinheiro">Dinheiro</option>
+            </select>
+            
+            <button id="finalizarPagamento">Finalizar Pagamento</button>
+        </div>
+
+        <!-- Histórico de Viagens -->
+        <div id="historicoDiv" class="form-div hidden">
+            <h2>Histórico de Viagens</h2>
+            <ul id="listaHistorico"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

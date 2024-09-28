@@ -1,0 +1,94 @@
+{
+    "viagens": [
+      {
+        "id": 1,
+        "origem": "São Paulo",
+        "destino": "Rio de Janeiro",
+        "dataInicio": "2024-10-01",
+        "dataFim": "2024-10-02",
+        "assentosDisponiveis": [
+          "1A",
+          "1B",
+          "1C",
+          "1D",
+          "2A",
+          "2B",
+          "2C",
+          "2D"
+        ],
+        "clienteId": null,
+        "formaPagamento": null
+      },
+      {
+        "id": 2,
+        "origem": "Belo Horizonte",
+        "destino": "São Paulo",
+        "dataInicio": "2024-10-05",
+        "dataFim": "2024-10-06",
+        "assentosDisponiveis": [
+          "1A",
+          "1B",
+          "1C",
+          "1D",
+          "2A",
+          "2B",
+          "2C",
+          "2D"
+        ],
+        "clienteId": null,
+        "formaPagamento": null
+      },
+      {
+        "id": 3,
+        "origem": "Cajazeiras",
+        "destino": "Sousa",
+        "dataInicio": "2024-09-28",
+        "dataFim": "2024-09-28",
+        "assentosDisponiveis": [
+          "1A",
+          "1B",
+          "1C",
+          "2A",
+          "2B",
+          "2C"
+        ],
+        "clienteId": null,
+        "formaPagamento": null
+      },
+      {
+        "id": 4,
+        "origem": "Cajazeiras",
+        "destino": "Sousa",
+        "dataInicio": "2024-09-27",
+        "dataFim": "2024-09-27",
+        "assentosDisponiveis": [
+          "1A",
+          "1B",
+          "1C",
+          "2A",
+          "2B",
+          "2C"
+        ],
+        "clienteId": null,
+        "formaPagamento": null
+      }
+    ],
+    "clientes": [
+      {
+        "id": 1,
+        "username": "cliente1",
+        "senha": "senha1"
+      },
+      {
+        "id": 2,
+        "username": "cliente2",
+        "senha": "senha2"
+      },
+      {
+        "id": 3,
+        "username": "Filipe312",
+        "senha": "123"
+      }
+    ]
+  }
+  
